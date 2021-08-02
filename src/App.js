@@ -1,7 +1,11 @@
+import './App.css';
+import Button from './components/Button';
+
 function App() {
   return (
-    <div>
-      Hello world.
+    <div className="app">
+      <p>What should I watch?</p>
+      <Button />
     </div>
   );
 }
