@@ -1,11 +1,11 @@
 import './App.css';
-import Button from './components/Button';
+import GeneratedOutput from './components/GeneratedOutput';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app center">
       <p>What should I watch?</p>
-      <Button />
+      <GeneratedOutput />
     </div>
   );
 }
